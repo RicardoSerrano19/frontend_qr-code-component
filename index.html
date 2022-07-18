@@ -52,17 +52,24 @@
       flex: 3;
     }
 
+    .qr__image img{
+      width: 100%;
+      height: 100%;
+      border-radius: 1em;
+    }
+
     .qr__content{
       flex: 2;
       margin: 1em;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: space-evenly;
+      justify-content: space-between;
     }
 
     .qr__content h1,.qr__content p{
       text-align: center;
+      letter-spacing: 0.05em;
     }
 
     .qr__content h1{
@@ -81,6 +88,7 @@
 
   <section class="qr">
     <div class="qr__image">
+      <img src="./images/image-qr-code.png" alt="image">
     </div>
     <div class="qr__content">
       <h1>Improve your front-end skills by building projects</h1>
